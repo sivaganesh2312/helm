@@ -3,12 +3,23 @@ entries:
   deploy:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T15:08:20.8848718+05:30"
+    created: "2024-11-18T15:45:29.2402177+05:30"
     description: A Helm chart for Kubernetes
     digest: a9e0e3d4bbd581d952581be92c74a465043ae01ebf14004f5d003520b8532899
     name: deploy
     type: application
     urls:
-    - https://sivaganesh2312.github.io/helm/deploy-0.1.0.tgz
+    - https:///sivaganesh2312.github.io/helm.git/deploy-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-18T15:08:20.8837852+05:30"
+  library:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-18T15:45:29.2414931+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 43025dc3a36c4e0d702dbae5ccd56a4a3625fddb98155707e0747d8a8e18f0b7
+    name: library
+    type: application
+    urls:
+    - https:///sivaganesh2312.github.io/helm.git/library-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-18T15:45:29.2391251+05:30"
